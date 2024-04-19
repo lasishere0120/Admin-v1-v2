@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Responses and Intents</title>
+</head>
+<body>
+    <h1>Delete Responses</h1>
+    <form method="post" action="/remove_response">
+        <label for="response_name">Response Name:</label>
+        <input type="text" id="response_name" name="response_name">
+        <button type="submit">Remove Response</button>
+    </form>
+
+    <h1>Delete Intents</h1>
+    <form method="post" action="/remove_intent">
+        <label for="intent_name">Intent Name:</label>
+        <input type="text" id="intent_name" name="intent_name">
+        <button type="submit">Remove Intent</button>
+    </form>
+
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>

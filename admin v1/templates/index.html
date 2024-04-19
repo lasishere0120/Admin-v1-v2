@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Intent</title>
+</head>
+<body>
+    <h1>Remove Intent</h1>
+    <form action="/remove_intent" method="post">
+        <label for="intent_name">Intent Name:</label>
+        <input type="text" id="intent_name" name="intent_name"><br><br>
+        <button type="submit">Remove Intent</button>
+    </form>
+    <div id="message">
+        {% if message %}
+            {{ message }}
+        {% endif %}
+    </div>
+</body>
+</html>

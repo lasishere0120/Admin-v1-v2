@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify NLU Examples</title>
+</head>
+<body>
+    <h1>Modify NLU Examples</h1>
+
+    <form id="modifyForm" method="post" action="add_data">
+        <label for="intent_name">Intent Name:</label>
+        <input type="text" id="intent_name" name="intent_name"><br><br>
+
+        <label for="new_examples">New Examples:</label><br>
+        <textarea id="new_examples" name="new_examples" rows="4" cols="50"></textarea><br><br>
+
+         <label for="intent_name">Response Name:</label>
+        <input type="text" id="resp_name" name="resp_name"><br><br>
+
+        <label for="new_examples">New Examples:</label><br>
+        <textarea id="resp" name="resp_text" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Modify Examples</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script>
+
+    </script>
+</body>
+</html>

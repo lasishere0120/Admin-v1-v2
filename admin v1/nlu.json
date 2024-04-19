@@ -1,0 +1,33 @@
+{
+    "version": "3.1",
+    "nlu": [
+        {
+            "intent": "greet",
+            "examples": "New example 1\nNew example 2\nNew example 3"
+        },
+        {
+            "intent": "file",
+            "examples": "- wa\n- wa\n- wa\n"
+        },
+        {
+            "intent": "goodbye",
+            "examples": "- cu\n- good by\n- cee you later\n- good night\n- bye\n- goodbye\n- have a nice day\n- see you around\n- bye bye\n- see you later\n"
+        },
+        {
+            "intent": "affirm",
+            "examples": "- yes\n- y\n- indeed\n- of course\n- that sounds good\n- correct\n"
+        },
+        {
+            "intent": "deny",
+            "examples": "- no\n- n\n- never\n- I don't think so\n- don't like that\n- no way\n- not really\n"
+        },
+        {
+            "intent": "mood_great",
+            "examples": "- perfect\n- great\n- amazing\n- feeling like a king\n- wonderful \n- I am feeling very good\n- I am great\n- I am amazing\n- I am going to save the world\n- super stoked\n- extremely good\n- so so perfect\n- so good\n- so perfect\n"
+        },
+        {
+            "intent": "mood_unhappy",
+            "examples": "- my day was horrible\n- I am sad\n- I don't feel very well\n- I am disappointed\n- super sad\n- I'm so sad\n- sad\n- very sad\n- unhappy\n- not good\n- not very good\n- extremly sad\n- so saad\n- so sad\n"
+        }
+    ]
+}
